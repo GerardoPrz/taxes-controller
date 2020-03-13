@@ -9,4 +9,9 @@ public class TaxesController implements IResident {
     public int estimateTaxIncome(List<IResident> residents){
               return 0;
     }
+
+    @Override
+    public float getIncomeTaxRate() {
+        return 0;
+    }
 }
