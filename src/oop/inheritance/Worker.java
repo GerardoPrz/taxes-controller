@@ -1,6 +1,6 @@
 package oop.inheritance;
 
-public class Worker {
+public class Worker extends TemporaryResident{
     public float getTaxDiscountRate(){
         return 0;
     }

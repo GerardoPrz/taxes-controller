@@ -1,4 +1,4 @@
 package oop.inheritance;
 
-public class PermanentResident {
+public class PermanentResident extends Resident {
 }
